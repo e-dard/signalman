@@ -47,3 +47,5 @@ signalman.SetErrChannel(errCh)
 
 Since a Signalman runs each registered function in its own goroutine,
 it's not necessary to provide a buffered channel for receiving errors.
+
+Full API documentation can be found on [godoc.org](http://godoc.org/github.com/e-dard/signalman)
